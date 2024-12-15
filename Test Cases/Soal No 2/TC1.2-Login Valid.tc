@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Login with valid data</description>
+   <name>TC1.2-Login Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>372e89e4-8d31-4650-bef9-23b38512b8f9</testCaseGuid>
+</TestCaseEntity>

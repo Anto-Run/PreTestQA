@@ -16,32 +16,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil
 
 try {
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+	WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-    WebUI.click(findTestObject('Object Repository/Login/btnMakeAppointment'))
+	WebUI.click(findTestObject('Object Repository/Login/btnMakeAppointment'))
 
-    WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), 'test')
+	WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), 'John Doe')
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Login/inputPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+	WebUI.setEncryptedText(findTestObject('Object Repository/Login/inputPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-    WebUI.click(findTestObject('Object Repository/Login/btnLogin'))
+	WebUI.click(findTestObject('Object Repository/Login/btnLogin'))
 
-    boolean isLoginInvalid = WebUI.verifyElementText(findTestObject('Object Repository/Login/txtLoginInvalid'), 'Login failed! Please ensure the username and password are valid.')
+	boolean isLoginValid = WebUI.verifyElementText(findTestObject('Object Repository/Login/txtMakeAppointment'), 'Make Appointment')
 
-    if (isLoginInvalid.equals(true)) {
-        KeywordUtil.markPassed('Login with invalid data successfull')
-    } else {
-        KeywordUtil.markError('Login with invalid data Failed')
-    }
+	if (isLoginValid.equals(true)) {
+		KeywordUtil.markPassed('Login with valid data successfull')
+	} else {
+		KeywordUtil.markError('Login with valid Failed')
+	}
 }
 catch (Exception e) {
-    KeywordUtil.markFailed('Test failed due to: ' + e.getMessage())
-} 
-finally { 
-    WebUI.closeBrowser()
+	KeywordUtil.markFailed('Test failed due to: ' + e.getMessage())
+}
+finally {
+	WebUI.closeBrowser()
 }
