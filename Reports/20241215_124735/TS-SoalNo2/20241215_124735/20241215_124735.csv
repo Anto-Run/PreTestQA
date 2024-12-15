@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-SoalNo2,Chrome 131.0.0.0,,,15-12-2024 12:47:40,15-12-2024 12:48:34,54.418s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC1.1-Login Invalid,Chrome 131.0.0.0,,,15-12-2024 12:47:40,15-12-2024 12:47:54,13.992s,PASSED
+try,Chrome 131.0.0.0,,,15-12-2024 12:47:40,15-12-2024 12:47:54,13.244s,PASSED
+Finally,Chrome 131.0.0.0,,,15-12-2024 12:47:54,15-12-2024 12:47:54,0.257s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC1.2-Login Valid,Chrome 131.0.0.0,Test Case Login with valid data,,15-12-2024 12:47:54,15-12-2024 12:48:06,11.738s,PASSED
+try,Chrome 131.0.0.0,,,15-12-2024 12:47:54,15-12-2024 12:48:06,11.578s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC2.1-Make Appointment - without input mandatory field,Chrome 131.0.0.0,Make Appointment - without input mandatory field,,15-12-2024 12:48:06,15-12-2024 12:48:17,10.820s,PASSED
+"callTestCase(findTestCase(""Test Cases/Soal No 2/TC1.2-Login Valid""), [:])",Chrome 131.0.0.0,,,15-12-2024 12:48:06,15-12-2024 12:48:13,7.090s,PASSED
+"facility = ""Seoul CURA Healthcare Center""",Chrome 131.0.0.0,,,15-12-2024 12:48:13,15-12-2024 12:48:13,0.003s,PASSED
+"applyReadmission = ""No""",Chrome 131.0.0.0,,,15-12-2024 12:48:13,15-12-2024 12:48:13,0.002s,PASSED
+"healthCareProgram = ""None""",Chrome 131.0.0.0,,,15-12-2024 12:48:13,15-12-2024 12:48:13,0.001s,PASSED
+"comment = ""Test Make Appointment""",Chrome 131.0.0.0,,,15-12-2024 12:48:13,15-12-2024 12:48:13,0.001s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Book Appointment/selectFacility""), facility, true)",Chrome 131.0.0.0,,,15-12-2024 12:48:13,15-12-2024 12:48:14,0.887s,PASSED
+"if (applyReadmission.equalsIgnoreCase(""Yes""))",Chrome 131.0.0.0,,,15-12-2024 12:48:14,15-12-2024 12:48:14,0.002s,PASSED
+"if (healthCareProgram.equalsIgnoreCase(""Medicare""))",Chrome 131.0.0.0,,,15-12-2024 12:48:14,15-12-2024 12:48:14,0.003s,PASSED
+"else if (healthCareProgram.equalsIgnoreCase(""Medicaid""))",Chrome 131.0.0.0,,,15-12-2024 12:48:14,15-12-2024 12:48:14,0.001s,PASSED
+"else if (healthCareProgram.equalsIgnoreCase(""None""))",Chrome 131.0.0.0,,,15-12-2024 12:48:14,15-12-2024 12:48:14,0.324s,PASSED
+"setText(findTestObject(""Object Repository/Book Appointment/textareaComment""), comment)",Chrome 131.0.0.0,,,15-12-2024 12:48:14,15-12-2024 12:48:15,0.624s,PASSED
+"click(findTestObject(""Object Repository/Book Appointment/btnBookAppointment""))",Chrome 131.0.0.0,,,15-12-2024 12:48:15,15-12-2024 12:48:15,0.360s,PASSED
+"inputVisitData = getText(findTestObject(""Object Repository/Book Appointment/inputVisitDate""))",Chrome 131.0.0.0,,,15-12-2024 12:48:15,15-12-2024 12:48:16,0.499s,PASSED
+"txtAppointmentSuccessNotPreesent = verifyElementNotPresent(findTestObject(""Object Repository/Book Appointment/verifyBookAppointmentSuccess""), 5)",Chrome 131.0.0.0,,,15-12-2024 12:48:16,15-12-2024 12:48:16,0.456s,PASSED
+if (inputVisitData.isEmpty() && txtAppointmentSuccessNotPreesent.equals(true)),Chrome 131.0.0.0,,,15-12-2024 12:48:16,15-12-2024 12:48:16,0.007s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,15-12-2024 12:48:16,15-12-2024 12:48:17,0.219s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC2.2-Make Appointment - Success,Chrome 131.0.0.0,Make Appointment - without input mandatory field,,15-12-2024 12:48:17,15-12-2024 12:48:34,17.611s,PASSED
+"callTestCase(findTestCase(""Test Cases/Soal No 2/TC1.2-Login Valid""), [:])",Chrome 131.0.0.0,,,15-12-2024 12:48:17,15-12-2024 12:48:27,10.762s,PASSED
+"facility = ""Seoul CURA Healthcare Center""",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:27,0.001s,PASSED
+"applyReadmission = ""No""",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:27,0.001s,PASSED
+"healthCareProgram = ""None""",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:27,0.003s,PASSED
+"appointmentDate = ""10/12/2024""",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:27,0.001s,PASSED
+"comment = ""Test Make Appointment""",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:27,0.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Book Appointment/selectFacility""), facility, true)",Chrome 131.0.0.0,,,15-12-2024 12:48:27,15-12-2024 12:48:28,0.887s,PASSED
+"if (applyReadmission.equalsIgnoreCase(""Yes""))",Chrome 131.0.0.0,,,15-12-2024 12:48:28,15-12-2024 12:48:28,0.001s,PASSED
+"if (healthCareProgram.equalsIgnoreCase(""Medicare""))",Chrome 131.0.0.0,,,15-12-2024 12:48:28,15-12-2024 12:48:28,0.001s,PASSED
+"else if (healthCareProgram.equalsIgnoreCase(""Medicaid""))",Chrome 131.0.0.0,,,15-12-2024 12:48:28,15-12-2024 12:48:28,0.000s,PASSED
+"else if (healthCareProgram.equalsIgnoreCase(""None""))",Chrome 131.0.0.0,,,15-12-2024 12:48:28,15-12-2024 12:48:29,0.320s,PASSED
+"setText(findTestObject(""Object Repository/Book Appointment/inputVisitDate""), appointmentDate)",Chrome 131.0.0.0,,,15-12-2024 12:48:29,15-12-2024 12:48:29,0.685s,PASSED
+"setText(findTestObject(""Object Repository/Book Appointment/textareaComment""), comment)",Chrome 131.0.0.0,,,15-12-2024 12:48:29,15-12-2024 12:48:30,0.846s,PASSED
+"click(findTestObject(""Object Repository/Book Appointment/btnBookAppointment""))",Chrome 131.0.0.0,,,15-12-2024 12:48:30,15-12-2024 12:48:31,0.663s,PASSED
+"bookAppointmentSuccess = verifyElementText(findTestObject(""Object Repository/Book Appointment/verifyBookAppointmentSuccess""), ""Appointment Confirmation"")",Chrome 131.0.0.0,,,15-12-2024 12:48:31,15-12-2024 12:48:31,0.537s,PASSED
+if (bookAppointmentSuccess),Chrome 131.0.0.0,,,15-12-2024 12:48:31,15-12-2024 12:48:33,1.377s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,15-12-2024 12:48:33,15-12-2024 12:48:34,1.320s,PASSED

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-SoalNo2" time="54.418" tests="4" failures="0" errors="0">
+   <testsuite name="TS-SoalNo2" tests="4" failures="0" errors="0" time="54.418" skipped="0" timestamp="15-12-2024T12:47:40" hostname="User - DESKTOP-0JEQGDP" id="Test Suites/TS-SoalNo2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\PreTestQA\\Reports\\20241215_124735\\TS-SoalNo2\\20241215_124735"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\PreTestQA\\Reports\\20241215_124735\\TS-SoalNo2\\20241215_124735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-0JEQGDP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="640be4f7759fa7eacc50189a7e978921"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Soal No 2/TC1.1-Login Invalid" time="13.992" classname="Test Cases/Soal No 2/TC1.1-Login Invalid" status="PASSED">
+         <system-out><![CDATA[15-12-2024T12:47:40 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.1-Login Invalid: Test Cases/Soal No 2/TC1.1-Login Invalid
+
+15-12-2024T12:47:40 - [TEST_STEP][PASSED] - try: Login with invalid data successfull
+
+15-12-2024T12:47:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T12:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T12:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T12:47:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T12:47:43 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:47:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:47:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "test"): Text 'test' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:47:52 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:47:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:47:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:47:53 - [TEST_STEP][PASSED] - isLoginInvalid = verifyElementText(findTestObject("Object Repository/Login/txtLoginInvalid"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/Login/txtLoginInvalid' are matched.
+
+15-12-2024T12:47:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtLoginInvalid' are matched.
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - if (isLoginInvalid.equals(true)): Login with invalid data successfull
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - markPassed("Login with invalid data successfull"): Login with invalid data successfull
+
+15-12-2024T12:47:54 - [MESSAGE][PASSED] - Login with invalid data successfull
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2024T12:47:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Soal No 2/TC1.2-Login Valid" time="11.738" classname="Test Cases/Soal No 2/TC1.2-Login Valid" status="PASSED">
+         <system-out><![CDATA[15-12-2024T12:47:54 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.2-Login Valid: Test Cases/Soal No 2/TC1.2-Login Valid
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - try: Login with valid data successfull
+
+15-12-2024T12:47:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T12:47:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T12:47:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T12:47:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T12:47:55 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:05 - [TEST_STEP][PASSED] - isLoginValid = verifyElementText(findTestObject("Object Repository/Login/txtMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:06 - [TEST_STEP][PASSED] - if (isLoginValid.equals(true)): Login with valid data successfull
+
+15-12-2024T12:48:06 - [TEST_STEP][PASSED] - markPassed("Login with valid data successfull"): Login with valid data successfull
+
+15-12-2024T12:48:06 - [MESSAGE][PASSED] - Login with valid data successfull]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Soal No 2/TC2.1-Make Appointment - without input mandatory field" time="10.82" classname="Test Cases/Soal No 2/TC2.1-Make Appointment - without input mandatory field" status="PASSED">
+         <system-out><![CDATA[15-12-2024T12:48:06 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC2.1-Make Appointment - without input mandatory field: Test Cases/Soal No 2/TC2.1-Make Appointment - without input mandatory field
+
+15-12-2024T12:48:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Soal No 2/TC1.2-Login Valid"), [:]): Call Test Case 'Test Cases/Soal No 2/TC1.2-Login Valid' successfully
+
+15-12-2024T12:48:06 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.2-Login Valid: Test Cases/Soal No 2/TC1.2-Login Valid
+
+15-12-2024T12:48:06 - [TEST_STEP][PASSED] - try: Login with valid data successfull
+
+15-12-2024T12:48:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T12:48:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-12-2024T12:48:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T12:48:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T12:48:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T12:48:07 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:12 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - isLoginValid = verifyElementText(findTestObject("Object Repository/Login/txtMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - if (isLoginValid.equals(true)): Login with valid data successfull
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - markPassed("Login with valid data successfull"): Login with valid data successfull
+
+15-12-2024T12:48:13 - [MESSAGE][PASSED] - Login with valid data successfull
+
+15-12-2024T12:48:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Soal No 2/TC1.2-Login Valid' successfully
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - facility = "Seoul CURA Healthcare Center": null
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - applyReadmission = "No": null
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - healthCareProgram = "None": null
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - comment = "Test Make Appointment": null
+
+15-12-2024T12:48:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Book Appointment/selectFacility"), facility, true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Book Appointment/selectFacility'  using regular expression
+
+15-12-2024T12:48:14 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Book Appointment/selectFacility'  using regular expression
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - if (applyReadmission.equalsIgnoreCase("Yes")): null
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - if (healthCareProgram.equalsIgnoreCase("Medicare")): null
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - else if (healthCareProgram.equalsIgnoreCase("Medicaid")): null
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - else if (healthCareProgram.equalsIgnoreCase("None")): Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Book Appointment/inputNonePrograms")): Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Book Appointment/textareaComment"), comment): Text 'Test Make Appointment' is set on object 'Object Repository/Book Appointment/textareaComment'
+
+15-12-2024T12:48:15 - [MESSAGE][PASSED] - Text 'Test Make Appointment' is set on object 'Object Repository/Book Appointment/textareaComment'
+
+15-12-2024T12:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Book Appointment/btnBookAppointment")): Object: 'Object Repository/Book Appointment/btnBookAppointment' is clicked on
+
+15-12-2024T12:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Appointment/btnBookAppointment' is clicked on
+
+15-12-2024T12:48:15 - [TEST_STEP][PASSED] - inputVisitData = getText(findTestObject("Object Repository/Book Appointment/inputVisitDate")): Text of object 'Object Repository/Book Appointment/inputVisitDate' is: ''
+
+15-12-2024T12:48:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Book Appointment/inputVisitDate' is: ''
+
+15-12-2024T12:48:16 - [TEST_STEP][PASSED] - txtAppointmentSuccessNotPreesent = verifyElementNotPresent(findTestObject("Object Repository/Book Appointment/verifyBookAppointmentSuccess"), 5): Web element with id: 'Object Repository/Book Appointment/verifyBookAppointmentSuccess' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' is not present after '5' second(s)
+
+15-12-2024T12:48:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Book Appointment/verifyBookAppointmentSuccess' located by 'By.xpath: //section[@id='summary']/div/div/div/h2' is not present after '5' second(s)
+
+15-12-2024T12:48:16 - [TEST_STEP][PASSED] - if (inputVisitData.isEmpty() && txtAppointmentSuccessNotPreesent.equals(true)): Visit Data is Null
+
+15-12-2024T12:48:16 - [TEST_STEP][PASSED] - markPassed("Visit Data is Null"): Visit Data is Null
+
+15-12-2024T12:48:16 - [MESSAGE][PASSED] - Visit Data is Null
+
+15-12-2024T12:48:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2024T12:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Soal No 2/TC2.2-Make Appointment - Success" time="17.611" classname="Test Cases/Soal No 2/TC2.2-Make Appointment - Success" status="PASSED">
+         <system-out><![CDATA[15-12-2024T12:48:17 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC2.2-Make Appointment - Success: Test Cases/Soal No 2/TC2.2-Make Appointment - Success
+
+15-12-2024T12:48:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Soal No 2/TC1.2-Login Valid"), [:]): Call Test Case 'Test Cases/Soal No 2/TC1.2-Login Valid' successfully
+
+15-12-2024T12:48:17 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.2-Login Valid: Test Cases/Soal No 2/TC1.2-Login Valid
+
+15-12-2024T12:48:17 - [TEST_STEP][PASSED] - try: Login with valid data successfull
+
+15-12-2024T12:48:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T12:48:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T12:48:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T12:48:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T12:48:18 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:25 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T12:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T12:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:26 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T12:48:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T12:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - isLoginValid = verifyElementText(findTestObject("Object Repository/Login/txtMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - if (isLoginValid.equals(true)): Login with valid data successfull
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - markPassed("Login with valid data successfull"): Login with valid data successfull
+
+15-12-2024T12:48:27 - [MESSAGE][PASSED] - Login with valid data successfull
+
+15-12-2024T12:48:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Soal No 2/TC1.2-Login Valid' successfully
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - facility = "Seoul CURA Healthcare Center": null
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - applyReadmission = "No": null
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - healthCareProgram = "None": null
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - appointmentDate = "10/12/2024": null
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - comment = "Test Make Appointment": null
+
+15-12-2024T12:48:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Book Appointment/selectFacility"), facility, true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Book Appointment/selectFacility'  using regular expression
+
+15-12-2024T12:48:28 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Book Appointment/selectFacility'  using regular expression
+
+15-12-2024T12:48:28 - [TEST_STEP][PASSED] - if (applyReadmission.equalsIgnoreCase("Yes")): null
+
+15-12-2024T12:48:28 - [TEST_STEP][PASSED] - if (healthCareProgram.equalsIgnoreCase("Medicare")): null
+
+15-12-2024T12:48:28 - [TEST_STEP][PASSED] - else if (healthCareProgram.equalsIgnoreCase("Medicaid")): null
+
+15-12-2024T12:48:28 - [TEST_STEP][PASSED] - else if (healthCareProgram.equalsIgnoreCase("None")): Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Book Appointment/inputNonePrograms")): Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Appointment/inputNonePrograms' is clicked on
+
+15-12-2024T12:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Book Appointment/inputVisitDate"), appointmentDate): Text '10/12/2024' is set on object 'Object Repository/Book Appointment/inputVisitDate'
+
+15-12-2024T12:48:29 - [MESSAGE][PASSED] - Text '10/12/2024' is set on object 'Object Repository/Book Appointment/inputVisitDate'
+
+15-12-2024T12:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Book Appointment/textareaComment"), comment): Text 'Test Make Appointment' is set on object 'Object Repository/Book Appointment/textareaComment'
+
+15-12-2024T12:48:30 - [MESSAGE][PASSED] - Text 'Test Make Appointment' is set on object 'Object Repository/Book Appointment/textareaComment'
+
+15-12-2024T12:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Book Appointment/btnBookAppointment")): Object: 'Object Repository/Book Appointment/btnBookAppointment' is clicked on
+
+15-12-2024T12:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Appointment/btnBookAppointment' is clicked on
+
+15-12-2024T12:48:31 - [TEST_STEP][PASSED] - bookAppointmentSuccess = verifyElementText(findTestObject("Object Repository/Book Appointment/verifyBookAppointmentSuccess"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyBookAppointmentSuccess' are matched.
+
+15-12-2024T12:48:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyBookAppointmentSuccess' are matched.
+
+15-12-2024T12:48:31 - [TEST_STEP][PASSED] - if (bookAppointmentSuccess): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataComment' are matched.
+
+15-12-2024T12:48:31 - [TEST_STEP][PASSED] - markPassed("Make Appointment Success"): Make Appointment Success
+
+15-12-2024T12:48:31 - [MESSAGE][PASSED] - Make Appointment Success
+
+15-12-2024T12:48:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Book Appointment/verifyDataFacility"), facility): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataFacility' are matched.
+
+15-12-2024T12:48:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataFacility' are matched.
+
+15-12-2024T12:48:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Book Appointment/verifyDataCheckApplyReadmission"), applyReadmission): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataCheckApplyReadmission' are matched.
+
+15-12-2024T12:48:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataCheckApplyReadmission' are matched.
+
+15-12-2024T12:48:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Book Appointment/verifyDataHealthCareProgram"), healthCareProgram): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataHealthCareProgram' are matched.
+
+15-12-2024T12:48:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataHealthCareProgram' are matched.
+
+15-12-2024T12:48:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Book Appointment/verifyDataDateAppointment"), appointmentDate): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataDateAppointment' are matched.
+
+15-12-2024T12:48:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataDateAppointment' are matched.
+
+15-12-2024T12:48:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Book Appointment/verifyDataComment"), comment): Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataComment' are matched.
+
+15-12-2024T12:48:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Appointment/verifyDataComment' are matched.
+
+15-12-2024T12:48:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2024T12:48:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-12-2024T12:47:40 - [TEST_SUITE][PASSED] - TS-SoalNo2: Test Cases/Soal No 2/TC2.2-Make Appointment - Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
