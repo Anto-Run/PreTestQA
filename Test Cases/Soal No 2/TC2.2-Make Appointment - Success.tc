@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Make Appointment - without input mandatory field</description>
+   <name>TC2.2-Make Appointment - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ec7b674-fa0e-4a51-8809-0162c366b431</testCaseGuid>
+</TestCaseEntity>

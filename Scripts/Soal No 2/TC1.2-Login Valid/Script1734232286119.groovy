@@ -42,6 +42,3 @@ try {
 catch (Exception e) {
 	KeywordUtil.markFailed('Test failed due to: ' + e.getMessage())
 }
-finally {
-	WebUI.closeBrowser()
-}

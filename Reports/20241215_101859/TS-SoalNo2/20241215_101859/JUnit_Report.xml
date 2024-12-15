@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-SoalNo2" time="17.787" tests="2" failures="0" errors="0">
+   <testsuite name="TS-SoalNo2" tests="2" failures="0" errors="0" time="17.787" skipped="0" timestamp="15-12-2024T10:19:03" hostname="User - DESKTOP-0JEQGDP" id="Test Suites/TS-SoalNo2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\PreTestQA\\Reports\\20241215_101859\\TS-SoalNo2\\20241215_101859"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\PreTestQA\\Reports\\20241215_101859\\TS-SoalNo2\\20241215_101859\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-0JEQGDP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="9e00794317ab5e36d63933399c449806"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Soal No 2/TC1.1-Login Invalid" time="9.086" classname="Test Cases/Soal No 2/TC1.1-Login Invalid" status="PASSED">
+         <system-out><![CDATA[15-12-2024T10:19:04 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.1-Login Invalid: Test Cases/Soal No 2/TC1.1-Login Invalid
+
+15-12-2024T10:19:04 - [TEST_STEP][PASSED] - try: Login with invalid data successfull
+
+15-12-2024T10:19:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T10:19:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T10:19:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T10:19:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T10:19:06 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T10:19:09 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T10:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T10:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T10:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "test"): Text 'test' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T10:19:11 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T10:19:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T10:19:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T10:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T10:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T10:19:12 - [TEST_STEP][PASSED] - isLoginInvalid = verifyElementText(findTestObject("Object Repository/Login/txtLoginInvalid"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/Login/txtLoginInvalid' are matched.
+
+15-12-2024T10:19:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtLoginInvalid' are matched.
+
+15-12-2024T10:19:12 - [TEST_STEP][PASSED] - if (isLoginInvalid.equals(true)): Login with invalid data successfull
+
+15-12-2024T10:19:12 - [TEST_STEP][PASSED] - markPassed("Login with invalid data successfull"): Login with invalid data successfull
+
+15-12-2024T10:19:12 - [MESSAGE][PASSED] - Login with invalid data successfull
+
+15-12-2024T10:19:12 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+15-12-2024T10:19:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2024T10:19:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Soal No 2/TC1.2-Login Valid" time="8.506" classname="Test Cases/Soal No 2/TC1.2-Login Valid" status="PASSED">
+         <system-out><![CDATA[15-12-2024T10:19:13 - [TEST_CASE][PASSED] - Test Cases/Soal No 2/TC1.2-Login Valid: Test Cases/Soal No 2/TC1.2-Login Valid
+
+15-12-2024T10:19:13 - [TEST_STEP][PASSED] - try: Login with valid data successfull
+
+15-12-2024T10:19:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-12-2024T10:19:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-12-2024T10:19:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-12-2024T10:19:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-12-2024T10:19:14 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T10:19:17 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+15-12-2024T10:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnMakeAppointment")): Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T10:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnMakeAppointment' is clicked on
+
+15-12-2024T10:19:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/inputUsername"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T10:19:19 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/inputUsername'
+
+15-12-2024T10:19:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/inputPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T10:19:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/inputPassword'
+
+15-12-2024T10:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T10:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+15-12-2024T10:19:21 - [TEST_STEP][PASSED] - isLoginValid = verifyElementText(findTestObject("Object Repository/Login/txtMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T10:19:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/txtMakeAppointment' are matched.
+
+15-12-2024T10:19:21 - [TEST_STEP][PASSED] - if (isLoginValid.equals(true)): Login with valid data successfull
+
+15-12-2024T10:19:21 - [TEST_STEP][PASSED] - markPassed("Login with valid data successfull"): Login with valid data successfull
+
+15-12-2024T10:19:21 - [MESSAGE][PASSED] - Login with valid data successfull
+
+15-12-2024T10:19:21 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+15-12-2024T10:19:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-12-2024T10:19:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-12-2024T10:19:03 - [TEST_SUITE][PASSED] - TS-SoalNo2: Test Cases/Soal No 2/TC1.2-Login Valid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

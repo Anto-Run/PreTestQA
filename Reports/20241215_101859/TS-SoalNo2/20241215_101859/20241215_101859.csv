@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-SoalNo2,Chrome 131.0.0.0,,,15-12-2024 10:19:03,15-12-2024 10:19:21,17.787s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC1.1-Login Invalid,Chrome 131.0.0.0,,,15-12-2024 10:19:04,15-12-2024 10:19:13,9.086s,PASSED
+try,Chrome 131.0.0.0,,,15-12-2024 10:19:04,15-12-2024 10:19:12,8.453s,PASSED
+Finally,Chrome 131.0.0.0,,,15-12-2024 10:19:12,15-12-2024 10:19:13,0.258s,PASSED
+,,,,,,,
+Test Cases/Soal No 2/TC1.2-Login Valid,Chrome 131.0.0.0,Test Case Login with valid data,,15-12-2024 10:19:13,15-12-2024 10:19:21,8.506s,PASSED
+try,Chrome 131.0.0.0,,,15-12-2024 10:19:13,15-12-2024 10:19:21,8.125s,PASSED
+Finally,Chrome 131.0.0.0,,,15-12-2024 10:19:21,15-12-2024 10:19:21,0.188s,PASSED

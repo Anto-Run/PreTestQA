@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnBookAppointment</name>
+   <name>verifyDataFacility</name>
    <tag></tag>
-   <elementGuidId>22982d68-e485-4b30-85b0-fd5a1a2c8a96</elementGuidId>
+   <elementGuidId>98534c0b-87ed-4b69-a667-4f5675b985dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btn-book-appointment</value>
+         <value>#facility</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
+         <value>//p[@id='facility']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>40f352f2-02a1-4eb6-a225-365a4178bc98</webElementGuid>
+      <value>p</value>
+      <webElementGuid>ab6f8615-eb8a-4f8d-9e4e-ef3ca5642c1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btn-book-appointment</value>
-      <webElementGuid>a23421c0-0735-43d1-bde7-c5bb117bb6eb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>e64d785e-5627-45cb-ba24-08fd289969fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>048e3c4a-ffc8-4a0f-a795-f109b8cc5c5c</webElementGuid>
+      <value>facility</value>
+      <webElementGuid>1f3267e8-fbfe-4954-84d0-4c772b31835a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Book Appointment</value>
-      <webElementGuid>846ee378-ae25-406d-b12a-24b5b16ffb6f</webElementGuid>
+      <value>Tokyo CURA Healthcare Center</value>
+      <webElementGuid>c97aacb7-e64e-48d3-9fd8-0f19092f7476</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-book-appointment&quot;)</value>
-      <webElementGuid>6cec67a4-5f43-4a92-81c6-6a2c5bb9f07d</webElementGuid>
+      <value>id(&quot;facility&quot;)</value>
+      <webElementGuid>2061962f-c855-4a26-a68c-70060cb2bc93</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btn-book-appointment']</value>
-      <webElementGuid>24604d82-f303-496d-b07c-c895be972ddf</webElementGuid>
+      <value>//p[@id='facility']</value>
+      <webElementGuid>0a7a1f69-66fc-477b-9a4f-445321697e42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[6]/div/button</value>
-      <webElementGuid>2fbb3e07-871b-4b11-b6bf-e2ee052ca6a6</webElementGuid>
+      <value>//section[@id='summary']/div/div/div[2]/div[2]/p</value>
+      <webElementGuid>e59379a0-4a25-41d9-9cc1-be33fde5ae04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::button[1]</value>
-      <webElementGuid>74e2a1ad-5e27-4593-ab04-463fd558af32</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::p[1]</value>
+      <webElementGuid>5fb500f0-d5bf-4c25-ad5c-c41b730af4e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date (Required)'])[1]/following::button[1]</value>
-      <webElementGuid>18394ee7-3ba0-4353-a8e8-578a8718b434</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Confirmation'])[1]/following::p[2]</value>
+      <webElementGuid>27f305be-c431-4485-8bf2-7430202c3db8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
-      <webElementGuid>4f906fe9-4da2-435e-be4a-f0e697a67492</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply for hospital readmission'])[1]/preceding::p[1]</value>
+      <webElementGuid>fc8f269b-03cc-4987-9e0b-1e63e0bd6153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::button[1]</value>
-      <webElementGuid>282e16ee-76a1-45ff-9fd7-e3c8dc6071c4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::p[2]</value>
+      <webElementGuid>a1675322-5231-49a5-83ca-c4257b0aedb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Book Appointment']/parent::*</value>
-      <webElementGuid>2687b445-1053-4fc3-8344-e272babd3b3b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Tokyo CURA Healthcare Center']/parent::*</value>
+      <webElementGuid>f710ff50-4ea2-45ba-a713-5f8d8e2c3110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cac2543c-1c8b-4c99-a8cf-96f0ba73c72e</webElementGuid>
+      <value>//div[2]/p</value>
+      <webElementGuid>11b34722-ab5f-426e-93d8-3cef8310e952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]</value>
-      <webElementGuid>2011fbf7-3484-4901-9ec0-ee7fa1793a43</webElementGuid>
+      <value>//p[@id = 'facility' and (text() = 'Tokyo CURA Healthcare Center' or . = 'Tokyo CURA Healthcare Center')]</value>
+      <webElementGuid>9c8f3530-86d7-47e5-80a5-235b3e7b68cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
